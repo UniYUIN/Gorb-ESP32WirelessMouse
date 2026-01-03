@@ -1,0 +1,17 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "paw3395.c"
+        "spi.c"
+        "esp_hid_gap.c"
+        "ble.c"
+        "tud.c"
+    INCLUDE_DIRS 
+        "."
+    REQUIRES
+        esp_timer
+        esp_hid
+    PRIV_REQUIRES
+        esp_driver_gpio
+        nvs_flash
+    )

@@ -1,0 +1,9 @@
+*/*_backup
+*.pdf
+
+.vscode
+.idea
+
+dist
+build
+managed_components

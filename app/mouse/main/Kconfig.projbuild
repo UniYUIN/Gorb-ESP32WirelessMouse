@@ -1,0 +1,132 @@
+menu "Gorb Configuration"
+
+    config MANUFACTURER
+        string "Manufacturer"
+        default "YUIN"
+        help
+            The manufacturer HID device show 
+            
+    config PRODUCT
+        string "Product"
+        default "Gorb"
+        help
+            The product HID device show 
+            
+    config SERIALS
+        string "serials"
+        default "123456"
+
+    config TUD_EPSIZE
+        int "tud epsize"
+        default 16
+
+    choice WIRELESS_MODE
+        prompt "wireless mode"
+        default WIRELESS_MODE_BLE
+        help
+            wireless mode(ble or wifi(not support)).
+
+        config WIRELESS_MODE_BLE
+            bool "BLE"
+    endchoice
+    
+    config MICRO_DEBOUNCE
+        int "micro debounce delay / us"
+        default 2000
+        range 2000 5000
+        help
+            The micro switches debounce delay us.
+
+    config ENCODER_DEBOUNCE
+        int "encoder debounce delay / us"
+        default 1000
+        range 1000 3000
+        help
+            The encoder debounce delay us.
+
+    config STOP_INTERVAL
+        int "task stop interval / ms"
+        default 1
+        range 1 1000
+
+    config STOP_INTERVAL_WIFI
+        int "task stop interval on wifi / ms"
+        default 3
+        range 3 1000
+
+    config STOP_INTERVAL_BLE
+        int "task stop interval on ble / ms"
+        default 8
+        range 8 1000
+
+    config POWER_SAVE_DELAY
+        int "how long time delay to enter power save. when no report / ms"
+        default 100000
+        range 100000 1000000
+            
+    config SPI_CLOCK_SPEED_HZ
+        int "sensor clock speed hz"
+        default 5000000
+        range 1000000 10000000
+        help
+            The paw3395 clock speed hz.
+
+    config MICRO_PIN_L
+        int "micro left pin"
+        default 12
+        
+    config MICRO_PIN_M
+        int "micro mid pin"
+        default 5
+        
+    config MICRO_PIN_R
+        int "micro right pin"
+        default 4
+        
+    config MICRO_PIN_B
+        int "micro back pin"
+        default 14
+        
+    config MICRO_PIN_F
+        int "micro forward pin"
+        default 13
+        
+    config ENCODER_B_NUM
+        int "encoder b pin"
+        default 11
+        
+    config ENCODER_A_NUM
+        int "encoder a pin"
+        default 10
+        
+    config PAW3395D_MISO_NUM
+        int "paw3395 miso pin"
+        default 15
+        
+    config PAW3395D_MOSI_NUM
+        int "paw3395 mosi pin"
+        default 16
+        
+    config PAW3395D_SCLK_NUM
+        int "paw3395 sclk pin"
+        default 17
+        
+    config PAW3395D_MOTION_NUM
+        int "paw3395 motion pin"
+        default 18
+        
+    config PAW3395D_NCS_NUM
+        int "paw3395 ncs pin"
+        default 7
+        
+    config PAW3395_READ_INTERVAL
+        int "paw3395 read interval / ms"
+        default 1
+        range 1 1000
+
+    config DEFAULT_DPI
+        int "default_dpi"
+        default 1600
+        range 50 26000
+
+endmenu
