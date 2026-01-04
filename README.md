@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://www.bilibili.com/video/BV1JnivBpEYX/?share_source=copy_web&vd_source=d24aebad23af5d1b79013ca0e410bb0c" target="_blank">Demo Video</a>｜
+<a href="https://www.bilibili.com/video/BV1JnivBpEYX" target="_blank">Demo Video</a>｜
 <a href="./README.zh-CN.md">简体中文</a>
 </p>
 
