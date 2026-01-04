@@ -84,5 +84,5 @@ If using the VSCode ESP-IDF plugin, you can follow these steps to flash:
 
 Welcome to contribute to Gorb through the following ways:
 
-* Report bugs or consult via [Issue](https://gitee.com/lylyno/gorb/issues).
-* Submit [Pull Request](https://gitee.com/lylyno/gorb/pulls) to improve Gorb's code.# Gorb-ESP32WirelessMouse
+* Report bugs or consult via [Issue](https://github.com/UniYUIN/Gorb-ESP32WirelessMouse/issues).
+* Submit [Pull Request](https://github.com/UniYUIN/Gorb-ESP32WirelessMouse/pulls) to improve Gorb's code.# Gorb-ESP32WirelessMouse
