@@ -29,7 +29,7 @@ Gorb是使用ESP32-S3作为主控的鼠标项目，支持USB和无线(BLE)双模
     |- app/
     |  |- driver/       驱动软件
     |  |- mouse/        鼠标程序
-    |- design/          设计图
+    |- design/          设计图 --已删除， 去https://oshwhub.com/no_panic/gorb下载设计项目
     |- shell/           3D外壳
     |- README.zh-CN.md  
 
