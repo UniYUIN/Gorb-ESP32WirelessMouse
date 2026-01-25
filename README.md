@@ -33,7 +33,7 @@ The main reason is that the resin shell has an unsatisfactory feel (somewhat sof
     |- app/
     |  |- driver/       Driver program
     |  |- mouse/        Mouse program
-    |- design/          Design
+    |- design/          Design --Deleted, go https://oshwhub.com/no_panic/gorb to get design project
     |- shell/           3D shell
     |- README.md
 
